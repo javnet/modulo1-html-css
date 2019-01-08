@@ -18,7 +18,8 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 
 - Creación de entornos de desenvolvemento
 - Modelos de contido en HTML
-- O head
+- Revisitando a estructura básica dun documento HTML
+  - O head
 - O body e os elementos máis importantes
 - Estructura dun sitio web e relación entre documentos HTML
 
@@ -28,7 +29,6 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 - Multimedia no HTML: Imaxes, audio e video
 
 #### Día 4 (3h)
-- HTML semántico
 - Accesibilidade, Usabilidade e ARIA
 - Ferramentas de apoio ao desenvolvemento e validación
 
