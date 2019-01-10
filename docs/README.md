@@ -20,17 +20,20 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 - Modelos de contido en HTML
 - Revisitando a estructura básica dun documento HTML
   - O head
-- O body e os elementos máis importantes
+- O body e os elementos estructurais máis importantes
 - Estructura dun sitio web e relación entre documentos HTML
 
 #### Día 3 (3h)
 
-- Formularios
-- Multimedia no HTML: Imaxes, audio e video
+- Listas
+- Táboas
+- Multimedia no HTML: Imaxes
 
 #### Día 4 (3h)
+- Multimedia no HTML: audio e video
+- Formularios
+- Etiquetas avanzadas
 - Accesibilidade, Usabilidade e ARIA
-- Ferramentas de apoio ao desenvolvemento e validación
 
 #### Día 5 (3h)
 

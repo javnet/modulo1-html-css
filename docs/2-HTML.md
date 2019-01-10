@@ -6,7 +6,7 @@
 - Modelos de contido en HTML
 - Revisitando a estructura básica dun documento HTML
   - O head
-- O body e os elementos máis importantes
+- O body e os elementos estructurais máis importantes
 - Estructura dun sitio web e relación entre documentos HTML
 
 
@@ -46,12 +46,14 @@ Validador da W3C: https://validator.w3.org/#validate_by_input
 - O tag máis xenérico é o <div>
 - Sempre se renderizan nunha liña nova.
 - Poden conter outros block tags ou inline tags.
+- Lista de tags de bloque: https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements
 
 #### Inline tags
 
 - O tag máis xenérico é o <span>
 - Por defecto renderízanse na mesma liña.
 - Só poden conter outros tags inline.
+- Lista de tags inline: https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements
 
 ### Práctica
 
@@ -91,7 +93,7 @@ Validador da W3C: https://validator.w3.org/#validate_by_input
 
   - O body é a raíz de todo o contido que aparece na ventana (viewport) do navegador. Vamos a por iso.
 
-### O body e os elementos máis importantes
+### O body e os elementos estructurais máis importantes
 
 Os exemplos de toda esta sección poden verse directamente nos ficheiros html do directorio *www* do día correspondente.
 
