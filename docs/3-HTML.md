@@ -142,7 +142,7 @@
   - tbody: define as filas e celas principais da táboa
   - tfoot: define as filas e celas de pé de táboa
 
-### Multimedia no HTML: Imaxes, audio e video
+### Multimedia no HTML: Imaxes
 
 - As imaxes no HTML están soportadas completamente dende mediados dos 90 pero o soporte completo de audio e o video chegou coa especificación do HTML5
 
@@ -159,22 +159,4 @@
   ```
 
 - O tag *img* é un tag de tipo inline polo tanto non crea unha nova liña ao insertalo.
-
-- O audio está soportado en HTML dende hai tempo co elemento *bgsound* pero só polo Internet Explorer e só soporta audio en formato MIDI (mid).
-
-- O HTML5 trae o tag *audio* que está soportado por todos os navegadores.
-
-- Os formatos de audio soportados son varios pero é habitual que se use o MP3. Aquí tedes unha lista de formatos de audio (e video) soportados: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
-
-- Para insertar audio nunha web:
-
-  ```html
-  <audio src="audio.mp3" controls>
-  ```
-
-- Aparte do atributo controls que mostra os controles de play/pause/volume hai outros atributos importantes:
-
-  - *autoplay*: fai que o sonido comece a reproducirse automáticamente
-  - loop: reproduce o audio de novo ao rematar
-  - Máis atributos aquí: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#Attributes
 
