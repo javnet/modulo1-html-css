@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formularios</title>
+</head>
+
+<body>
+  <header>
+    <h1>Formulario de contacto</h1>
+  </header>
+  <section>
+
+    <form>
+      <fieldset>
+        <legend>Nome e apelidos</legend>
+
+        <ul>
+          <li>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Só unha palabra">
+          </li>
+          <li>
+            <label for="apelidos">Apelidos</label>
+            <input type="search" name="apelidos" id="apelidos">
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos persoais</legend>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" min="18" max="120" value="42">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="comida">Comida favorita</label>
+        <select name="comida" id="comida">
+          <optgroup label="Vexetais">
+            <option value="pementos">Pementos</option>
+            <option value="patacas">Patacas</option>
+          </optgroup>
+          <optgroup label="Peixe">
+            <option value="xarda">Xarda</option>
+            <option value="sardiña">Sardiña</option>
+          </optgroup>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <label for="password">Contrasinal</label>
+        <input type="password" name="password" id="password">
+
+        <label for="newsletter">Recibir newsletter?</label>
+        <input type="checkbox" name="newsletter" id="newsletter" checked>
+      </fieldset>
+
+      <fieldset>
+        <legend>Provincia</legend>
+
+        <ul>
+          <li>
+            <label for="lugo">Lugo</label>
+            <input type="radio" name="provincia" checked value="lugo" id="lugo">
+          </li>
+          <li>
+            <label for="coruna">A Coruña</label>
+            <input type="radio" name="provincia" value="coruña" id="coruna">
+          </li>
+          <li>
+            <label for="pontevedra">Pontevedra</label>
+            <input type="radio" name="provincia" value="pontevedra" id="pontevedra">
+          </li>
+
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>As miñas movidas</legend>
+        <textarea rows="10" cols="40"></textarea>
+
+        <p>
+          <label for="foto">Sube a túa foto</label>
+          <input type="file" name="foto" id="foto">
+        </p>
+
+        <p>
+          <label for="gasolina">Canta gasolina ten o teu coche?</label>
+          <input type="range" name="gasolina" id="gasolina" min="0" max="100" step="10" value="90">
+        </p>
+
+        <p>
+          <label for="cumpleanos">Cando naciche?</label>
+          <input type="datetime-local" name="cumpleanos" id="cumpleanos">
+        </p>
+
+
+        <p>
+          <label for="cor">Cor favorita?</label>
+          <input type="color" name="cor" id="cor">
+        </p>
+
+
+
+
+      </fieldset>
+
+      <input type="hidden" name="valor-oculto" value="1234">
+      <button type="submit">Enviar</button>
+      <button type="reset">Borrar</button>
+      <button type="button">Non fai nada</button>
+    </form>
+
+  </section>
+</body>
+
+</html>

@@ -43,14 +43,14 @@ Validador da W3C: https://validator.w3.org/#validate_by_input
 
 #### Block tags
 
-- O tag máis xenérico é o <div>
+- O tag máis xenérico é o *div*
 - Sempre se renderizan nunha liña nova.
 - Poden conter outros block tags ou inline tags.
 - Lista de tags de bloque: https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements
 
 #### Inline tags
 
-- O tag máis xenérico é o <span>
+- O tag máis xenérico é o *span*
 - Por defecto renderízanse na mesma liña.
 - Só poden conter outros tags inline.
 - Lista de tags inline: https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements#Elements
@@ -71,9 +71,13 @@ Validador da W3C: https://validator.w3.org/#validate_by_input
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
   ```
 
-- Despois do doctype abrimos o <html>
+- Despois do doctype abrimos o *html*
 
-- Dentro do tag <html> só son soportados dous tags principais o tag *head* e o tag *body*. O atributo principal dese tag é o *lang* que define o idioma do documento, p.ex. <html lang="gl">.
+- Dentro do tag *html* só son soportados dous tags principais o tag *head* e o tag *body*. O atributo principal dese tag é o *lang* que define o idioma do documento, p.ex:
+
+  ```html
+  <html lang="gl">
+  ```
 
   - O head inclúe metainformación do documento: titulo, descrición, carga de código externo como CSS ou JavaScript, información sobre a codificación de caracteres do documento ou un variado número de tags *meta* que definen diferentes valores de metainformación. 
     Exemplo:

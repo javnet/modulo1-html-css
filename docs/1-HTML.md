@@ -64,8 +64,8 @@
 
 ### Estrutura básica dun documento HTML
 
-- O tag que define un documento html e que o engloba completamente é o tag <html>
-- Os documentos HTML están formados por dúas partes principais: <head> e <body>
+- O tag que define un documento html e que o engloba completamente é o tag *html*
+- Os documentos HTML están formados por dúas partes principais: *head* e *body*
 - O head conten metainformación do documento.
 - O body é o que vemos na pantalla do navegador.
 - Os documentos HTML están compostos por elementos HTML aniñados. A complexidade pode ser moi grande.
