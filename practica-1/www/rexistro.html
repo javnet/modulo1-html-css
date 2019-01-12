@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Formulario de rexistro no meu blog">
+
+  <title>Formulario de rexistro</title>
+</head>
+
+<body>
+  <header>
+    <h1>O meu blog</h1>
+    <nav>
+      <a href="/index.html">Portada</a>
+    </nav>
+  </header>
+
+  <section id="rexistro">
+    <h2>Formulario de rexistro</h2>
+
+    <form action="/rexistro.html">
+      <fieldset>
+        <legend>Datos persoais</legend>
+        <ul>
+          <li>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+          </li>
+          <li>
+            <label for="url">Website:</label>
+            <input type="url" name="url" id="url">
+          </li>
+          <li>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Facturación</legend>
+        <ul>
+          <li>
+            <label for="direccion">Dirección</label>
+            <textarea name="direccion" id="direccion" cols="30" rows="10"></textarea>
+          </li>
+          <li>
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">
+              <optgroup label="Europa">
+                <option value="españa">España</option>
+                <option value="portugal">Portugal</option>
+              </optgroup>
+              <optgroup label="América">
+                <option value="México">México</option>
+                <option value="Chile">Chile</option>
+              </optgroup>
+            </select>
+          </li>
+        </ul>
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Borrar formulario</button>
+    </form>
+
+  </section>
+
+  <footer>
+    <p>(c) 2019, Hackabos</p>
+  </footer>
+</body>
+
+</html>
