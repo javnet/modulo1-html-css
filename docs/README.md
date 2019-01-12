@@ -36,10 +36,11 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 #### Día 5 (3h)
 
 - Etiquetas avanzadas
-- Accesibilidade, Usabilidade e ARIA
-- Breve historia do CSS e como chegamos ata aquí
+- Accesibilidade
+- Lighthouse
+- Breve historia do CSS
 - Relación de HTML e CSS
-- Anatomía dunha regla de CSS
+- Anatomía do CSS
 - Selectores simples
 
 ### Xornada práctica 1 (8h)

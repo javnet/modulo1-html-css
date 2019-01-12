@@ -1,0 +1,44 @@
+@import 'outro.css';
+
+body {
+  font-family: Arial;
+}
+
+h1,
+h2 {
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: monospace;
+  color: yellow;
+  background: rebeccapurple;
+}
+
+#python {
+  background: lightgreen;
+}
+
+.importante {
+  background: lightgray;
+}
+
+.super {
+  font-size: 1.5rem;
+}
+
+.super h2 {
+  background: red;
+}
+
+.importante > p {
+  text-decoration: underline;
+}
+
+.primeiro {
+  font-size: 2rem;
+}
+
+.primeiro + li {
+  background: yellow;
+}
