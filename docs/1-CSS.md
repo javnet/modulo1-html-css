@@ -134,8 +134,3 @@
   ```
 
 - Ao igual que no HTML o espazo en blanco nos ficheiros CSS son ignorados.
-
-### Selectores simples
-
-- Os selectores de CSS son usados para referirse a elementos HTML que queremos estilar nas nosas páxinas.
-- https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Simple_selectors

@@ -41,7 +41,6 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 - Breve historia do CSS
 - Relación de HTML e CSS
 - Anatomía do CSS
-- Selectores simples
 
 ### Xornada práctica 1 (8h)
 
@@ -51,10 +50,8 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 
 #### Día 1 (3h)
 
-- Selectores avanzados
-- Pseudo selectores
+- Selectores
 - Modelo de cascada e herdanza
-- Modularización
 
 #### Día 2 (3h)
 
