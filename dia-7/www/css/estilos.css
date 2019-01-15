@@ -1,0 +1,51 @@
+h1 {
+  color: yellow;
+  background: rebeccapurple;
+}
+
+[data-hackabos] {
+  text-decoration: underline;
+}
+
+[data-hackabos='3'] {
+  color: red;
+}
+
+[data-etiquetas~='css'] {
+  font-size: 2rem;
+}
+
+li [href^='https'] {
+  color: green;
+  font-size: 2rem;
+}
+
+li[data-nome^='Fed'] {
+  color: green;
+  font-weight: bold;
+}
+
+li[data-nome$='to'] {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+li[data-nome*='er'] {
+  text-decoration: underline;
+}
+
+p.parrafo {
+  background: lightgray;
+}
+
+.verde {
+  text-decoration: underline;
+}
+
+#interior {
+  background: green;
+}
+
+blockquote[lang] {
+  background: blue;
+}
