@@ -55,7 +55,7 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 
 #### Día 2 (3h)
 
-- Unidades e colores
+- Unidades e cores
 - Estilo de textos
 - Tipografía
 
