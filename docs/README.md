@@ -68,13 +68,13 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 #### Día 4 (3h)
 
 - Posicionamento de elementos e creación de layouts: Flexbox
+- Media Queries
 
 #### Día 5 (3h)
 
+- Máis Media Queries
 - Compatibilidade e vendor prefixes
 - Preprocesadores e post-procesadores de CSS
-- Accesibilidade e usabilidade
-- Tips and tricks prácticos.
 
 ### Xornada práctica final (8h)
 
