@@ -61,9 +61,8 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 
 #### Día 3 (3h)
 
-- O modelo de caixas de HTML+CSS: fluxo, apilamentos...
+- O modelo de caixas
 - Estilo de caixas
-- Animacións e transicións
 
 #### Día 4 (3h)
 
@@ -73,6 +72,7 @@ Aprender as ferramentas máis básicas que calquera desenvolvedor web debe coñe
 #### Día 5 (3h)
 
 - Máis Media Queries
+- Animacións e transicións
 - Compatibilidade e vendor prefixes
 - Preprocesadores e post-procesadores de CSS
 
