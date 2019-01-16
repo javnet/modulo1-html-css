@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny|Montserrat:100,400,900');
+
+/* @font-face {
+  font-family: 'Get Show';
+  src: url(/fonts/getshow.ttf);
+} */
+
+@font-face {
+  font-family: 'Get Show';
+  src: url('/fonts/GetShow.woff2') format('woff2'),
+    url('/fonts/GetShow.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 150%;
+}
+
+body header {
+  background: lightcyan;
+  width: 80%;
+
+  text-transform: uppercase;
+}
+
+body header h1 {
+  font-size: 100px;
+  font-style: italic;
+  text-shadow: 4px 4px 4px red;
+  letter-spacing: -5px;
+  font-family: 'Get Show', fantasy;
+}
+
+body header p {
+  background: rgba(100, 100, 40, 0.4);
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.2;
+  word-spacing: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+body header p a {
+  text-decoration: none;
+}
+
+header li {
+  font-size: 2rem;
+}

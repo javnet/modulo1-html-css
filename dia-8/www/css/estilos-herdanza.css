@@ -1,0 +1,12 @@
+body {
+  color: green;
+  font-style: italic;
+}
+
+header nav li:first-child a {
+  color: inherit;
+}
+
+header nav li:last-child a {
+  color: initial;
+}

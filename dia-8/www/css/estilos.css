@@ -1,0 +1,20 @@
+/* html body header h1.titulo {
+  background: red;
+  color: white;
+}
+
+.titulo:nth-child(1) {
+  background: rebeccapurple;
+}
+
+#cabeceira-principal {
+  background: lightblue;
+} */
+
+.titulo {
+  background: blue;
+}
+
+.principal {
+  background: red;
+}
