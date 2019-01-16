@@ -1,3 +1,5 @@
+@import '/css/normalize.css';
+
 body {
   background: lightgray;
   font-family: sans-serif;
