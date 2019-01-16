@@ -55,7 +55,7 @@
 - Todo o comportamento do modelo de caixas descrito nos anteriores puntos aplícase aos elementos de tipo **block**, pero xa sabemos que hai outros elementos que son de tipo **inline**. Veremos agora as particularidades de cada tipo con respecto ao modelo de caixas e como modificar mediante CSS o tipo de cada caixa. E veremos que hai outros tipos de caixas que podemos definir usando a propiedade `display` de CSS:
 
   - **Caixas de bloque**: os elementos de tipo bloque apílanse uns sobre outros e teñen por defecto o ancho do contedor do que son fillos. Podemos mudar o ancho e alto desas caixas con `width` e `height` e aplican o modelo de caixas tal como explicamos ata agora.
-  - **Caixas inline**: os elementos inline flúen co texto, aparecen na mesma liña que o texto que os rodea e que outros elementos inline. O seu contido distribuirase en diferentes liñas se se pasa de tamaño. **Non** podemos establecer ancho e alto destas caixas pero si marxes, bordes e paddings.
+  - **Caixas inline**: os elementos inline flúen co texto, aparecen na mesma liña que o texto que os rodea e que outros elementos inline. O seu contido distribuirase en diferentes liñas se se pasa de tamaño. **Non** podemos establecer ancho e alto destas caixas pero si marxes (só horizontais), bordes e paddings.
   - **Caixas inline-block**: este modo novo pódese definir só por CSS e funciona como unha mistura dos anteriores. Podemos establecer un `width e height` e non dividirán o contido en diferentes liñas se se pasan de tamaño.
 
 - Podemos modificar o tipo de caixa usando a propiedade `display` de CSS:
