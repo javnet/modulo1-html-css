@@ -1,0 +1,40 @@
+#produtos {
+  min-width: 400px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.produto {
+  background: lightgray;
+  padding: 1rem 1rem 2rem 6rem;
+  margin-bottom: 2rem;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: 4rem 4rem;
+  background-position: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.produto header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.produto header p {
+  margin-bottom: 2rem;
+}
+
+.produto header a {
+  color: white;
+  text-decoration: none;
+  background: blue;
+  padding: 0.5rem;
+}
+
+.produto1 {
+  background-image: url(/img/icon1.png);
+}
+
+.produto2 {
+  background-image: url(/img/icon2.png);
+}
