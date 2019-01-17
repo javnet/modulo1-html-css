@@ -1,0 +1,32 @@
+.un {
+  background: lightgoldenrodyellow;
+  margin-bottom: 50px;
+}
+
+.dous {
+  background: lightcyan;
+  width: 20rem;
+  height: 50%; /* as alturas en porcentaxe non valen */
+  padding: 70px;
+  padding-bottom: 20px;
+  border: 10px solid blue;
+  margin-top: -70px;
+}
+
+.dous span {
+  background: lightpink;
+  display: block; /* NON MIRAR */
+}
+
+header {
+  background: lightgreen;
+  border: 20px solid red;
+}
+
+header h1 {
+  background: rebeccapurple;
+  color: white;
+  margin: 0 auto;
+  width: 40%;
+  height: 300px;
+}
