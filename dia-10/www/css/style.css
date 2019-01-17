@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background: rebeccapurple;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.child {
+  background: yellow;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  order: 0;
+  flex-grow: 0;
+}
+
+.child:nth-child(3) {
+  background: red;
+  order: -1;
+  align-self: flex-end;
+}
+
+.child:nth-child(5) {
+  background: green;
+  order: 1;
+}

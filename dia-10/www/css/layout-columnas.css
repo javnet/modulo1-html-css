@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  font-family: sans-serif;
+}
+
+body > header {
+  background: rebeccapurple;
+  width: 400px;
+  color: white;
+  min-height: 100vh;
+}
+
+body > header > nav > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body > header > h1 {
+  text-align: center;
+}
+
+nav li {
+  background: yellow;
+  padding: 0.4rem;
+  margin-bottom: 0.2rem;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+body > section {
+  background: lightblue;
+  padding-left: 1rem;
+}
