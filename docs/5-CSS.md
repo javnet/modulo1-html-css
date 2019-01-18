@@ -16,7 +16,7 @@
 
 ### Terminoloxía
 
-![flex](/Users/berto/Desktop/flex.png)
+![flex](https://raw.githubusercontent.com/hack-a-bos/modulo1-html-css/master/docs/flex.png)
 
 - **Contedor**: é o elemento que se define como flex e polo tanto os seus fillos van ser afectados por este tipo de display. A maioría de propiedades css do modulo flexbox aplícase ao contedor.
 - **Fillos**: son os elementos internos de primeiro nivel do contenedor que se distribúen no espazo segundo as propiedades aplicadas ao pai. Tamén hai unha serie de propiedades no modulo que só se aplican aos fillos.
